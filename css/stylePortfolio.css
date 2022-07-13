@@ -75,6 +75,63 @@ h2 {
 }
 
 /* RESPONSIVE*/
-@media screen and (max-width:800px){
+@media screen and (max-width:1200px){
+    .portfolio_section_robotsuiveur {
+        display: block;
+        width: 100%;
+        align-items: flex-end;
+    }
+    .colonne_gauche_robot_suiveur {
+        width: 100%;
+        text-align: justify;
+        color: #ffffff;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+    }
+    .colonne_droite_robot_suiveur {
+        width: 100%;
+    }
 
+    .portfolio_section_laserchat {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 0rem;
+    }
+    .colonne_gauche_laserchat {
+        width: 100%;
+        padding-bottom: 0rem;
+        padding-top: 0rem;
+    }
+    .colonne_droite_laserchat {
+        width: 100%;
+        color: #ffffff;
+        padding-top: 1rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+        text-align: justify;
+    } 
+
+    .portfolio_section_listX {
+        background-color: #1d1d1f;
+        color: #ffffff;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .colonne_gauche_listx {
+        width: 100%;
+        text-align: justify;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+    }
+    
+    .colonne_droite_listx iframe{
+        width: 100%;
+    }
 }
