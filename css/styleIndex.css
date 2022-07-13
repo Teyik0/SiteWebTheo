@@ -138,8 +138,8 @@
     .photo p {
         text-align: justify;
         align-items: center;
-        margin-right: 4rem;
-        margin-left: 4rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
     }
 }
 
@@ -185,5 +185,11 @@
     }
     .skills h3 {
         margin-bottom: 1rem;
+    }
+    .photo p {
+        text-align: justify;
+        align-items: center;
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
     }
 }
