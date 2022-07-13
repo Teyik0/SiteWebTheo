@@ -25,14 +25,14 @@
         <div class="colonne_gauche_robot_suiveur">
             <h2>Robot Suiveur - Terminale S-SI - 2018/2019</h2>
             <p>
-            Pour ma dernière année de lycée, nous devions faire un projet, avec mon groupe nous avons choisi de réalisé un cartable suiveur.
+            Pour ma dernière année de lycée, nous devions faire un projet embarqué, avec mon groupe nous avons choisi de réalisé un cartable suiveur.
             Ce projet était très ambitieux, le robot devait être capable de suivre l'utilisateur en plus d'être capable d'éviter tout potentiel obstacle.
-            Difficulté supplémentaire, celui-ci devait être fait avec Arduino. Or Arduino ne permet pas le parallélisme, ainsi nous avons été obligé d'opter pour 3 Arduinos
-            chacun pour s'occuper d'une tâche donné. Un devait s'occuper de localiser l'utilisateur, l'autre analyser les obstacles et le dernier centraliser les informations
+            Difficulté supplémentaire, celui-ci devait être fait avec des cartes Arduino. Or ces cartes ne permettent pas le parallélisme, ainsi nous avons été obligé de prendre trois cartes Arduino
+            chacunes pour s'occuper d'une tâche donné. Un devait s'occuper de localiser l'utilisateur, l'autre analyser les obstacles et le dernier centraliser les informations
             des deux autres pour donner les instructions de mouvement aux moteurs. <br><br>
             Deuxième difficulté, nous devions localiser l'utilisateur par bluetooth. Pour ce faire, le robot était équipé de 3 modules Bluetooth, tous pointant sur l'adresse mac
             du module Bluetooth du téléphone de l'utilisateur. En effet, cela permettait d'effectuer une mesure de la puissance du signal dans chaque direction (gauche, droite, milieu)
-            afin de savoir ou était l'utilisateur. <br><br>
+            afin de savoir ou était l'utilisateur par rapport au robot. <br><br>
             Bien que ce projet avancait plutôt bien, celui-ci était trop ambitieux pour pouvoir être terminé en une seule année. En revanche chacune des fonctions des Arduinos fonctionnaient
             parfaitement séparément. Il ne restait plus qu'à centraliser les informations et faire les derniers tests pour finaliser ce projet.
             </p>
@@ -44,7 +44,7 @@
 
     <section class="portfolio_section_laserchat">
         <div class="colonne_gauche_laserchat">
-            <img src="assets/img/laserchat.png" width="100%"/>      
+            <img id="imglaserchat" src="assets/img/laserchat.png" width="100%"/>      
         </div>
         <div class="colonne_droite_laserchat">
             <h2>Laser pour chat sur deux axes - DUT GEII - 2020/2021</h2>
