@@ -22,14 +22,9 @@
     </header>
 
     <section class="portfolio_section_robotsuiveur">
-        <div class="img_robot_suiveur">
-            <img src="assets/img/robot_suiveur.jpg"/>
-            <img src="assets/img/robot_suiveur2.jpg"/>
-            <img src="assets/img/robot_suiveur3.jpg"/>
-            <img src="assets/img/robot_suiveur4.jpg"/>
-        </div>
-        <h2>Robot Suiveur - Terminale S-SI - 2018/2019</h2>
-        <p>
+        <div class="colonne_gauche_robot_suiveur">
+            <h2>Robot Suiveur - Terminale S-SI - 2018/2019</h2>
+            <p>
             Pour ma dernière année de lycée, nous devions faire un projet, avec mon groupe nous avons choisi de réalisé un cartable suiveur.
             Ce projet était très ambitieux, le robot devait être capable de suivre l'utilisateur en plus d'être capable d'éviter tout potentiel obstacle.
             Difficulté supplémentaire, celui-ci devait être fait avec Arduino. Or Arduino ne permet pas le parallélisme, ainsi nous avons été obligé d'opter pour 3 Arduinos
@@ -40,15 +35,28 @@
             afin de savoir ou était l'utilisateur. <br><br>
             Bien que ce projet avancait plutôt bien, celui-ci était trop ambitieux pour pouvoir être terminé en une seule année. En revanche chacune des fonctions des Arduinos fonctionnaient
             parfaitement séparément. Il ne restait plus qu'à centraliser les informations et faire les derniers tests pour finaliser ce projet.
-        </p>
+            </p>
+        </div>
+        <div class="colonne_droite_robot_suiveur">
+            <ul class="robot_img_list1">
+                <li><img src="assets/img/robot_suiveur3.jpg"/></li>
+                <li><img src="assets/img/robot_suiveur4.jpg"/></li>
+            </ul>
+            <ul class="robot_img_list2">
+                <li><img src="assets/img/robot_suiveur.jpg"/></li>
+                <li><img src="assets/img/robot_suiveur2.jpg"/></li>
+            </ul>
+        </div>
     </section>
 
     <section class="portfolio_section_laserchat">
-        <div class="img_laserchat">
-            <img src="assets/img/laserchat1.JPEG"/>
-            <img src="assets/img/laserchat2.JPEG"/>
+        <div class="colonne_gauche_laserchat">
+            <ul>
+                <li><img src="assets/img/laserchat1.JPEG"/></li>
+                <li><img src="assets/img/laserchat2.JPEG"/></li>
+            </ul>            
         </div>
-        <div class="content">
+        <div class="colonne_droite_laserchat">
             <h2>Laser pour chat sur deux axes - DUT GEII - 2020/2021</h2>
             <p>
             Votre chat s'ennuie ? Vous n'avez pas assez de temps à lui consacrer pour jouer ? Le laser pour chat sur deux axes est conçu pour ça !
@@ -62,18 +70,19 @@
     </section>
 
     <section class="portfolio_section_listX">
-        <iframe src="https://www.youtube.com/embed/cHFLe5QYoQU" width="640" height="480" frameborder="0"></iframe>
-        <h2>ListX - DUT GEII - 2021/2022</h2>
-        <p>
-            ListX est une application créé entièrement en C++ via le framework Qt. Cette application est un base de donnée utilisateur.
-            En effet, celle-ci conçu initialement pour le bureau des élèves dont je faisais partie devait permettre de recenser la liste des adhérents.
-            <br><br> Celle-ci très complète permet l'ajout, la suppression, l'exportation et l'importation de membre. Bien que non visible sur la vidéo, 
-            une fonction de trie à été ajouté, celle-ci permettant trier par ordre alphabétique (A-Z ou Z-A), de trier par année, par groupe... <br><br>
-            L'application est entièrement fonctionnel et a représenté à elle seule beaucoup de travail et de développement. C'est mon projet le
-            plus difficile mais aussi celui qui est le plus abouti. <br><br>
-            ListX étant un projet amateur, celui-ci n'est pas disponible en téléchargement et n'est désormais plus en développement.
-        </p>
+        <div class="colonne_gauche_listx">
+            <h2>ListX - DUT GEII - 2021/2022</h2>
+            <p>
+                ListX est une application créé entièrement en C++ via le framework Qt. Cette application est un base de donnée utilisateur.
+                En effet, celle-ci conçu initialement pour le bureau des élèves dont je faisais partie devait permettre de recenser la liste des adhérents.
+                <br><br> Celle-ci très complète permet l'ajout, la suppression, l'exportation et l'importation de membre. Bien que non visible sur la vidéo, 
+                une fonction de trie à été ajouté, celle-ci permettant trier par ordre alphabétique (A-Z ou Z-A), de trier par année, par groupe... <br><br>
+                L'application est entièrement fonctionnel et a représenté à elle seule beaucoup de travail et de développement. C'est mon projet le
+                plus difficile mais aussi celui qui est le plus abouti. <br><br>
+                ListX étant un projet amateur, celui-ci n'est pas disponible en téléchargement et n'est désormais plus en développement.
+            </p>
+        </div>
+        <div class="colonne_droite_listx"><iframe src="https://www.youtube.com/embed/cHFLe5QYoQU" width="640" height="480" frameborder="0"></iframe></div>
     </section>
-
 </body>
 </html>

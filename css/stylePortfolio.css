@@ -7,60 +7,64 @@ h2 {
 
 .portfolio_section_robotsuiveur {
     background-color: rgb(25, 24, 26);
-
+    width: 100%;
 }
 
-.img_robot_suiveur img{
-    padding-top: 2rem;
-    padding-bottom: 0rem;
-    float: right;
-    width: 17rem;
-    height: 17rem;
-}
-.img_robot_suiveur:first-child {
-    padding-left: 35rem;
-}
-
-.portfolio_section_robotsuiveur h2 {
-    padding-left: 2rem;
-    padding-right: 10rem;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-}
-
-.portfolio_section_robotsuiveur p {
-    color: #ffffff;
-    padding-left: 2rem;
-    padding-right: 36rem;
-    padding-bottom: 2rem;
+.colonne_gauche_robot_suiveur {
+    width: 50%;
     text-align: justify;
+    color: #ffffff;
+    display: block;
+    float: left;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 2rem;
+}
+
+.colonne_droite_robot_suiveur {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.colonne_droite_robot_suiveur img{
+    width: 300px;
+    height: 300px;
 }
 
 /* SECTION - LASER POUR CHAT */
 
 .portfolio_section_laserchat {
     background-color: #29292c;
-    display: block;
+    width: 100%;
 }
 
-.portfolio_section_laserchat img {
-    width: 17rem;
-    height: 17rem;
-    margin-top: 2rem;
+.colonne_gauche_laserchat {
+    width: 50%;
+    float: left;
+}
+.colonne_gauche_laserchat ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+/* .colonne_gauche_laserchat li {
+    display: inline;
+} */
+.colonne_gauche_laserchat img{
+    width: 300px;
+    height: 300px;
 }
 
-.content {
+.colonne_droite_laserchat {
+    display:inline-block;
+    width: 50%;
     color: #ffffff;
-    text-align: right;
-    margin-top: -18rem;
-    padding-right: 2rem;
-}
-
-.content p {
-    padding-left: 46%;
-    text-align: justify;
+    padding-bottom: 1rem;
     padding-top: 1rem;
-    padding-bottom: 2rem;
 }
 
 /* SECTION - ListX */
@@ -68,23 +72,19 @@ h2 {
 .portfolio_section_listX {
     background-color: #1d1d1f;
     color: #ffffff;
+    width: 100%;
 }
 
-.portfolio_section_listX h2{
-    padding-left: 2rem;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-}
-
-.portfolio_section_listX p {
+.colonne_gauche_listx {
+    display: block;
+    width: 50%;
     text-align: justify;
-    padding-left: 2rem;
-    padding-right: 53%;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    float: left;
 }
 
-iframe {
-    float: right;
-    margin-top: 2rem;
+.colonne_droite_listx {
+    display: flex;
 }
-

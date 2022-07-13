@@ -23,8 +23,8 @@
 
 @media screen and (max-width:900px){
     .qui-suis-je p {
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
         margin-bottom: 1rem;
     }
 }
