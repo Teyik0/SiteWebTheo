@@ -18,20 +18,14 @@ h2 {
     float: left;
     padding-top: 1rem;
     padding-left: 1rem;
-    padding-right: 2rem;
+    padding-right: 1rem;
 }
 
 .colonne_droite_robot_suiveur {
-    padding-top: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
-}
-
-.colonne_droite_robot_suiveur img{
-    width: 300px;
-    height: 300px;
 }
 
 /* SECTION - LASER POUR CHAT */
@@ -44,27 +38,18 @@ h2 {
 .colonne_gauche_laserchat {
     width: 50%;
     float: left;
-}
-.colonne_gauche_laserchat ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 2rem;
-}
-/* .colonne_gauche_laserchat li {
-    display: inline;
-} */
-.colonne_gauche_laserchat img{
-    width: 300px;
-    height: 300px;
+    padding-top: 5%;
 }
 
 .colonne_droite_laserchat {
     display:inline-block;
     width: 50%;
     color: #ffffff;
-    padding-bottom: 1rem;
     padding-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    text-align: justify;
 }
 
 /* SECTION - ListX */
@@ -87,4 +72,9 @@ h2 {
 
 .colonne_droite_listx {
     display: flex;
+}
+
+/* RESPONSIVE*/
+@media screen and (max-width:800px){
+
 }
