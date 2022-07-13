@@ -1,0 +1,90 @@
+h2 {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+/* SECTION - ROBOT SUIVEUR */
+
+.portfolio_section_robotsuiveur {
+    background-color: rgb(25, 24, 26);
+
+}
+
+.img_robot_suiveur img{
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+    float: right;
+    width: 17rem;
+    height: 17rem;
+}
+.img_robot_suiveur:first-child {
+    padding-left: 35rem;
+}
+
+.portfolio_section_robotsuiveur h2 {
+    padding-left: 2rem;
+    padding-right: 10rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.portfolio_section_robotsuiveur p {
+    color: #ffffff;
+    padding-left: 2rem;
+    padding-right: 36rem;
+    padding-bottom: 2rem;
+    text-align: justify;
+}
+
+/* SECTION - LASER POUR CHAT */
+
+.portfolio_section_laserchat {
+    background-color: #29292c;
+    display: block;
+}
+
+.portfolio_section_laserchat img {
+    width: 17rem;
+    height: 17rem;
+    margin-top: 2rem;
+}
+
+.content {
+    color: #ffffff;
+    text-align: right;
+    margin-top: -18rem;
+    padding-right: 2rem;
+}
+
+.content p {
+    padding-left: 46%;
+    text-align: justify;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+/* SECTION - ListX */
+
+.portfolio_section_listX {
+    background-color: #1d1d1f;
+    color: #ffffff;
+}
+
+.portfolio_section_listX h2{
+    padding-left: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.portfolio_section_listX p {
+    text-align: justify;
+    padding-left: 2rem;
+    padding-right: 53%;
+    padding-bottom: 2rem;
+}
+
+iframe {
+    float: right;
+    margin-top: 2rem;
+}
+

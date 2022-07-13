@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/stylePortfolio.css">
+    <title>Theo's Website</title>
+</head>
+
+<body>
+    <header>
+        <nav class="menubar">
+            <ul class="nav-list">
+                <li class="nav-item"><h2><a href="index.html">Accueil</a></h2></li>
+                <li class="nav-item"><h2><a href="qui-suis-je.html">Qui suis-je ?</a></h2></li>
+                <li class="nav-item"><h2><a href="portfolio.html">Portfolio</a></h2></li>
+                <!--<li class="nav-item"><h2><a href="#">Prestations</a></h2></li>-->
+                <li class="nav-item"><h2><a href="contact.html">Contact</a></h2></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="portfolio_section_robotsuiveur">
+        <div class="img_robot_suiveur">
+            <img src="assets/img/robot_suiveur.jpg"/>
+            <img src="assets/img/robot_suiveur2.jpg"/>
+            <img src="assets/img/robot_suiveur3.jpg"/>
+            <img src="assets/img/robot_suiveur4.jpg"/>
+        </div>
+        <h2>Robot Suiveur - Terminale S-SI - 2018/2019</h2>
+        <p>
+            Pour ma dernière année de lycée, nous devions faire un projet, avec mon groupe nous avons choisi de réalisé un cartable suiveur.
+            Ce projet était très ambitieux, le robot devait être capable de suivre l'utilisateur en plus d'être capable d'éviter tout potentiel obstacle.
+            Difficulté supplémentaire, celui-ci devait être fait avec Arduino. Or Arduino ne permet pas le parallélisme, ainsi nous avons été obligé d'opter pour 3 Arduinos
+            chacun pour s'occuper d'une tâche donné. Un devait s'occuper de localiser l'utilisateur, l'autre analyser les obstacles et le dernier centraliser les informations
+            des deux autres pour donner les instructions de mouvement aux moteurs. <br><br>
+            Deuxième difficulté, nous devions localiser l'utilisateur par bluetooth. Pour ce faire, le robot était équipé de 3 modules Bluetooth, tous pointant sur l'adresse mac
+            du module Bluetooth du téléphone de l'utilisateur. En effet, cela permettait d'effectuer une mesure de la puissance du signal dans chaque direction (gauche, droite, milieu)
+            afin de savoir ou était l'utilisateur. <br><br>
+            Bien que ce projet avancait plutôt bien, celui-ci était trop ambitieux pour pouvoir être terminé en une seule année. En revanche chacune des fonctions des Arduinos fonctionnaient
+            parfaitement séparément. Il ne restait plus qu'à centraliser les informations et faire les derniers tests pour finaliser ce projet.
+        </p>
+    </section>
+
+    <section class="portfolio_section_laserchat">
+        <div class="img_laserchat">
+            <img src="assets/img/laserchat1.JPEG"/>
+            <img src="assets/img/laserchat2.JPEG"/>
+        </div>
+        <div class="content">
+            <h2>Laser pour chat sur deux axes - DUT GEII - 2020/2021</h2>
+            <p>
+            Votre chat s'ennuie ? Vous n'avez pas assez de temps à lui consacrer pour jouer ? Le laser pour chat sur deux axes est conçu pour ça !
+            Celui-ci permet de simuler une aire de jeux sur un demie cercle et imite les mouvements d'un humain pointant un laser sur le sol. Ces mêmes laser
+            dont les chats raffolent. <br>
+            Ce laser automatique a été fait en détournant un bras robot. En effet, j'ai enlevé la pince d'origine pour modéliser et imprimer en 3D une pièce permettant de
+            fixer un module laser à la place. Le reste consistait en de la programmation pure et dure. Un système aléatoire pour les mouvements et la durée d'attente entre chaque
+            mouvement et le tour était joué. Il suffit alors de poser le bras robot sur une table en hauteur and that's it !
+            </p>
+        </div>
+    </section>
+
+    <section class="portfolio_section_listX">
+        <iframe src="https://www.youtube.com/embed/cHFLe5QYoQU" width="640" height="480" frameborder="0"></iframe>
+        <h2>ListX - DUT GEII - 2021/2022</h2>
+        <p>
+            ListX est une application créé entièrement en C++ via le framework Qt. Cette application est un base de donnée utilisateur.
+            En effet, celle-ci conçu initialement pour le bureau des élèves dont je faisais partie devait permettre de recenser la liste des adhérents.
+            <br><br> Celle-ci très complète permet l'ajout, la suppression, l'exportation et l'importation de membre. Bien que non visible sur la vidéo, 
+            une fonction de trie à été ajouté, celle-ci permettant trier par ordre alphabétique (A-Z ou Z-A), de trier par année, par groupe... <br><br>
+            L'application est entièrement fonctionnel et a représenté à elle seule beaucoup de travail et de développement. C'est mon projet le
+            plus difficile mais aussi celui qui est le plus abouti. <br><br>
+            ListX étant un projet amateur, celui-ci n'est pas disponible en téléchargement et n'est désormais plus en développement.
+        </p>
+    </section>
+
+</body>
+</html>

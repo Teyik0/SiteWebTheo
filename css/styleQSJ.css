@@ -1,0 +1,22 @@
+.qui-suis-je {
+    background-color: rgb(24, 26, 27);
+    text-align: justify;
+}
+
+.qui-suis-je p {
+    color: #ffffff;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.qui-suis-je a {
+    color: #ffffff;
+    text-decoration: underline;
+    text-underline-offset: 1px;
+}
+
+.qui-suis-je a:hover {
+    color: aqua;
+}
