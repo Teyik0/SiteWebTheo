@@ -20,3 +20,11 @@
 .qui-suis-je a:hover {
     color: aqua;
 }
+
+@media screen and (max-width:900px){
+    .qui-suis-je p {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-bottom: 1rem;
+    }
+}
