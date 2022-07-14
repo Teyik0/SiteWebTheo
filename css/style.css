@@ -50,7 +50,7 @@ body {
 .nav-item a:hover {
     text-decoration: underline;
     text-underline-offset: 10px;
-    transition: 0.2s;
+    transition: 0.3s;
     color: rgb(117, 71, 13);
 }
 
