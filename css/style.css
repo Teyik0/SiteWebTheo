@@ -8,6 +8,11 @@
     text-decoration: none;
 }
 
+.nav-list a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
 header {
     background: rgb(34, 34, 36);
 }
