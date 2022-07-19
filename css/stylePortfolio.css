@@ -33,22 +33,25 @@ h2 {
 .portfolio_section_laserchat {
     background-color: #29292c;
     width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
 .colonne_gauche_laserchat {
     width: 50%;
     float: left;
-    padding-top: 5%;
+}
+.colonne_gauche_laserchat img {
+    margin-top: 0.5rem;
+    min-height: 330px;
 }
 
 .colonne_droite_laserchat {
-    display:inline-block;
     width: 50%;
     color: #ffffff;
     padding-top: 1rem;
     padding-right: 1rem;
     padding-left: 1rem;
-    padding-bottom: 1rem;
     text-align: justify;
 }
 
@@ -58,6 +61,8 @@ h2 {
     background-color: #1d1d1f;
     color: #ffffff;
     width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
 .colonne_gauche_listx {
@@ -71,7 +76,7 @@ h2 {
 }
 
 .colonne_droite_listx {
-    display: flex;
+    width: 50%;
 }
 
 /* RESPONSIVE*/
@@ -131,7 +136,8 @@ h2 {
         padding-bottom: 1rem;
     }
     
-    .colonne_droite_listx iframe{
+    .colonne_droite_listx{
         width: 100%;
+        text-align: center;
     }
 }
