@@ -78,6 +78,10 @@ h2 {
 .colonne_droite_listx {
     width: 50%;
 }
+.colonne_droite_listx iframe {
+    width: 100%;
+    height: 480px;
+}
 
 /* RESPONSIVE*/
 @media screen and (max-width:1200px){
